@@ -3,7 +3,9 @@ function out(s) {
 }
 
 function c1() {
-    let a = 5, b = 6, c = 7;
+    let a = 5;
+    let b = 6;
+    let c = 7;
     let p = (a + b + c) / 2;
     let s = Math.sqrt(p * (p - a) * (p - b) * (p - c));
     console.log(s);

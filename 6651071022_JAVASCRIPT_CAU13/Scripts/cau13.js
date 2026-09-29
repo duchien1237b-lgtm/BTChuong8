@@ -3,9 +3,13 @@ function out(s) {
 }
 
 function isPrime(n) {
-    if (n < 2) return false;
+    if (n < 2) {
+        return false;
+    }
     for (let i = 2; i <= Math.sqrt(n); i++) {
-        if (n % i == 0) return false;
+        if (n % i == 0) {
+            return false;
+        }
     }
     return true;
 }
@@ -14,7 +18,9 @@ function c13() {
     let n = Number(prompt('Nhập n:'));
     let kq = '';
     for (let i = 2; i < n; i++) {
-        if (isPrime(i)) kq += i + ' ';
+        if (isPrime(i)) {
+            kq += i + ' ';
+        }
     }
     out(kq);
 }

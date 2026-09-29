@@ -5,7 +5,9 @@ function out(s) {
 function c18() {
     let n = Number(prompt('Nhập n:'));
     let f = 1;
-    for (let i = 2; i <= n; i++) f *= i;
+    for (let i = 2; i <= n; i++) {
+        f *= i;
+    }
     out(n + '! = ' + f);
 }
 

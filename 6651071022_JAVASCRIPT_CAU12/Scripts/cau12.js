@@ -4,7 +4,9 @@ function out(s) {
 
 function luyThua(b, n) {
     let kq = 1;
-    for (let i = 0; i < n; i++) kq *= b;
+    for (let i = 0; i < n; i++) {
+        kq *= b;
+    }
     return kq;
 }
 

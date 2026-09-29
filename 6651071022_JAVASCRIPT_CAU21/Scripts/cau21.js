@@ -3,7 +3,9 @@ function out(s) {
 }
 
 function c21() {
-    let thu = ['Chủ nhật', 'Thứ Hai', 'Thứ Ba', 'Thứ Tư', 'Thứ Năm', 'Thứ Sáu', 'Thứ Bảy'];
+    let thu = [
+        'Chủ nhật', 'Thứ Hai', 'Thứ Ba', 'Thứ Tư', 'Thứ Năm', 'Thứ Sáu', 'Thứ Bảy'
+    ];
     let d = new Date(2023, 8, 1);
     out('01/09/2023 là ' + thu[d.getDay()]);
 }
